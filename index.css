@@ -1,0 +1,45 @@
+body {
+    background-color: darkgrey;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.white-keys > kbd{
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    height: 200px;
+    width: 66px;
+    border:solid grey 2px;
+    font-size:30px;
+    font-family: 'Dancing Script', cursive;
+    line-height: 300px;
+    margin-left: -5px;
+}
+
+.black-keys > kbd{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    width: 50px;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    height: 120px;
+    margin-left: 17px;
+    top: -28.3vh;
+    line-height: 200px;
+}
+
+#blackKeysT {
+    margin-left: 80px;
+}
+
+#blackKeysU {
+    margin-right: 20px;
+}
